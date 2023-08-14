@@ -5,6 +5,9 @@ import Home from './Components/Home';
 import AboutUs from './Components/AboutUs';
 import Transport from './Components/Transport';
 import OurProducts from './Components/OurProducts';
+import Chairman from './Components/Chairman';
+
+
 
 import Navbar from "./Components/Navbar";
 import Navbar2 from "./Components/Navbar2";
@@ -17,11 +20,12 @@ function App() {
         <Navbar2 />
         <Navbar />
         <Routes>
-          <Route exact path="/Home" Component={Home} />
+          `<Route exact path="/Home" Component={Home} />
           <Route exact path="/AboutUs" Component={AboutUs} />
           {/* <Route exact path="/Services" Component={Services} /> */}
           {/* <Route exact path="/ContactUs" Component={ContactUs} /> */}
-          {/* <Route exact path="/Chairman" Component={Chairman} /> */}
+          {/* <Route exact path="/Home" Component={Home} /> */}
+          <Route exact path="/Chairman" Component={Chairman} />
           {/* <Route exact path="/Awards" Component={Awards} /> */}
           {/* <Route exact path="/Directors" Component={Directors} /> */}
           {/* <Route exact path="/EnergySector" Component={EnergySector} /> */}

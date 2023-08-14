@@ -7,7 +7,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Link } from 'react-router-dom';
 
 
-export default function Navbar2() {
+export default function Navbar3() {
     const [refreshKey, setRefreshKey] = useState(0);
     const handleRefresh = () => {
         setRefreshKey((prevKey) => prevKey + 1);
@@ -33,21 +33,14 @@ export default function Navbar2() {
                         <Nav.Link href="#home">Home</Nav.Link>
                         <Nav.Link href="#AboutUs">AboutUs</Nav.Link>
 
+
                         <NavDropdown title="OurConcerns" id="basic-nav-dropdown">
-                            {/* <NavDropdown.Link href="#Chairman" onClick={handleRefresh}> */}
-                            <NavDropdown.Item href="#Chairman" onClick={handleRefresh}>Chairman </NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-
-                            {/* <Nav.Link href="#Chairman">Chairman</Nav.Link> */}
-                            {/* <Link to="#Chairman" onClick={handleRefresh} >Chairman</Link> */}
-                            {/* <Link to="/Chairman2" onClick={handleRefresh} >Chairman</Link> */}
-                            {/* </NavDropdown.Item> */}
-
-
 
                             <NavDropdown.Item href="#action/3.2">
                                 Another action
                             </NavDropdown.Item>
+
                             {/* <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                                 <NavDropdown.Item href="#action/3.2">
                                     Another action
@@ -63,10 +56,6 @@ export default function Navbar2() {
                 </Navbar.Collapse>
             </Container >
         </Navbar >
-
-
-
-
 
 
     )
