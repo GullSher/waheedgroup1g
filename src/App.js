@@ -4,7 +4,7 @@ import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Home from './Components/Home';
 import AboutUs from './Components/AboutUs';
 import Transport from './Components/Transport';
-
+import OurProducts from './Components/OurProducts';
 
 import Navbar from "./Components/Navbar";
 import Navbar2 from "./Components/Navbar2";
@@ -34,7 +34,7 @@ function App() {
           {/* <Route exact path="/NotFound" Component={NotFound} /> */}
           {/* <Route exact path="/Topbar" Component={Topbar} /> */}
           {/* <Route exact path="/LatestNews" Component={LatestNews} /> */}
-          {/* <Route exact path="/OurProducts" Component={OurProducts} /> */}
+          <Route exact path="/OurProducts" Component={OurProducts} />
           {/* <Route exact path="/MediaGallery" Component={MediaGallery} /> */}
 
         </Routes>

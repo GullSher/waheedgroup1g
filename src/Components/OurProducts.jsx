@@ -1,15 +1,12 @@
+
 import React, { Component } from 'react';
 
-class OurProducts extends Component {
-    render() {
-        return (
-            <div>
 
-            </div>
-        );
-    }
+export default function OurProducts() {
+    return (
+        <div>OurProducts
+            <h1>This is Our Products Page.</h1>
+
+        </div>
+    )
 }
-
-export default OurProducts;
-
-
