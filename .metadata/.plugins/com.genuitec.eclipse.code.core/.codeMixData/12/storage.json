@@ -1,0 +1,29 @@
+{
+    "telemetry.machineId": "40857634-e3b3-4391-9c2d-e128eff4de73",
+    "openedPathsList": {
+        "workspaces3": [
+            {
+                "id": "f3c2c4d1aae9429ba8de0cea59dd0533",
+                "configURIPath": "file:///g%3A/Work%20Folder%208/react-work-folder8/waheedgroup1f/.metadata/codemix.code-workspace"
+            }
+        ],
+        "files2": []
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "workspaceIdentifier": {
+                "id": "f3c2c4d1aae9429ba8de0cea59dd0533",
+                "configURIPath": "file:///g%3A/Work%20Folder%208/react-work-folder8/waheedgroup1f/.metadata/codemix.code-workspace"
+            },
+            "backupPath": "g:\\Work Folder 8\\react-work-folder8\\waheedgroup1f\\.metadata\\.plugins\\com.genuitec.eclipse.code.core\\.codeMixData\\11\\Backups\\f3c2c4d1aae9429ba8de0cea59dd0533",
+            "uiState": {
+                "mode": 1,
+                "x": 208,
+                "y": 66,
+                "width": 1024,
+                "height": 768
+            }
+        },
+        "openedWindows": []
+    }
+}

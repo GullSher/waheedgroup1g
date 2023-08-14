@@ -1,0 +1,246 @@
+/*-----------------------------------------45. Footer-------------------------------------------*/
+/* Why golobal css not working for this file */
+
+.footer-1 {
+    background: #222;
+    padding: 80px 0px 0px 0px;
+    text-align: left;
+}
+
+.footer-1 h2 {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+@media (max-width: 767px) {
+    .footer-1 h2 {
+        margin-top: 20px;
+    }
+}
+
+.footer-1 .social-links-footer {
+    margin-top: 25px;
+}
+
+.footer-1 .social-links-footer li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.footer-1 .social-links-footer a {
+    color: #fff;
+    font-size: 17px;
+}
+
+.footer-nav li {
+    margin: 5px 0px;
+}
+
+.footer-nav a {
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer-nav a:hover {
+    color: #ef4736;
+}
+
+.footer-news li {
+    border-bottom: 1px solid #444;
+    padding: 18px 0px;
+}
+
+.footer-news li:first-child {
+    padding-top: 0px;
+}
+
+.footer-news li:last-child {
+    border: none
+}
+
+.footer-news a {
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer-news a:hover {
+    color: #ef4736;
+}
+
+.footer-news strong {
+    display: block;
+    color: #999;
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.footer-news strong i {
+    color: #ef4736;
+    margin-right: 5px;
+}
+
+.footer-subscribe-form input {
+    background: #fff;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    width: 100%;
+    font-size: 14px;
+    padding: 14px 15px;
+}
+
+.footer-subscribe-form button {
+    background: #ef4736;
+    color: #fff;
+    font-size: 17px;
+    width: 50px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 12px;
+    transform: translateY(1px);
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+}
+
+.footer-subscribe-form button:hover {
+    color: #ef4736;
+    background: #f5f5f5;
+}
+
+.footer-1-bar {
+    border-top: 1px solid #444;
+    padding: 15px 0px;
+    margin-top: 70px;
+}
+
+.footer-1-bar p {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+/*--------------- From style-5.css  is blow this line */
+
+
+.footer-1 {
+    background: #222;
+    padding: 80px 0px 0px 0px;
+}
+
+.footer-1 h2 {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+@media (max-width: 767px) {
+    .footer-1 h2 {
+        margin-top: 20px;
+    }
+}
+
+.footer-1 .social-links-footer {
+    margin-top: 25px;
+}
+
+.footer-1 .social-links-footer li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.footer-1 .social-links-footer a {
+    color: #fff;
+    font-size: 17px;
+}
+
+.footer-nav li {
+    margin: 5px 0px;
+}
+
+.footer-nav a {
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer-nav a:hover {
+    color: #ef4736;
+}
+
+.footer-news li {
+    border-bottom: 1px solid #444;
+    padding: 18px 0px;
+}
+
+.footer-news li:first-child {
+    padding-top: 0px;
+}
+
+.footer-news li:last-child {
+    border: none
+}
+
+.footer-news a {
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer-news a:hover {
+    color: #ef4736;
+}
+
+.footer-news strong {
+    display: block;
+    color: #999;
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.footer-news strong i {
+    color: #ef4736;
+    margin-right: 5px;
+}
+
+.footer-subscribe-form input {
+    background: #fff;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    width: 100%;
+    font-size: 14px;
+    padding: 14px 15px;
+}
+
+.footer-subscribe-form button {
+    background: #ef4736;
+    color: #fff;
+    font-size: 17px;
+    width: 50px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 12px;
+    transform: translateY(1px);
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+}
+
+.footer-subscribe-form button:hover {
+    color: #ef4736;
+    background: #f5f5f5;
+}
+
+.footer-1-bar {
+    border-top: 1px solid #444;
+    padding: 15px 0px;
+    margin-top: 70px;
+}
+
+.footer-1-bar p {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+/* ------------------- */

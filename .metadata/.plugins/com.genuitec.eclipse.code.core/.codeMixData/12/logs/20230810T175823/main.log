@@ -1,0 +1,2 @@
+[2023-08-10 17:58:25.354] [main] [info] update#ctor - updates are disabled as there is no update URL
+[2023-08-10 17:58:31.307] [main] [warning] [electron event]: fail to load,  ERR_FILE_NOT_FOUND

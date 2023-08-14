@@ -1,0 +1,12 @@
+.background {
+    color: black;
+}
+
+html,
+body {
+    font-family: Poppins;
+    color: #1c303e;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
